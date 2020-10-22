@@ -1,5 +1,5 @@
 name: build
-on: [push, pull_request]
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,3 +12,4 @@ jobs:
       - run: yarn install
       - run: yarn run elm make
       - run: yarn run elm-format src/ --validate
+      - run: yarn run elm-review
