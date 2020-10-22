@@ -1,0 +1,13 @@
+{
+    "type": "package",
+    "name": "carwow/elm-review-rules",
+    "summary": "A set of elm-review rules used across our projects at carwow",
+    "license": "MIT",
+    "version": "1.0.0",
+    "elm-version": "0.19.0 <= v < 0.20.0",
+    "exposed-modules": [
+        "CarwowReview"
+    ],
+    "dependencies": {},
+    "test-dependencies": {}
+}
