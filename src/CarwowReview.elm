@@ -7,7 +7,7 @@ module CarwowReview exposing (rules)
 
 @docs rules
 
-We include rules that help us maintain a clean and tidy codebase, promote good patterns, and codify conventions that we think are important.
+The rules in this module are chosen to help us maintain a clean and tidy codebase, promote good patterns, and codify conventions that we think are important.
 
 -}
 
@@ -16,6 +16,9 @@ import Review.Rule exposing (Rule)
 
 
 {-| Returns a list of elm-review rules that we apply to all of our elm at carwow.
+
+Include the result in the list of rules returned by the `rules` function of the `ReviewConfig.elm` file in each application.
+
 -}
 rules : List Rule
 rules =
