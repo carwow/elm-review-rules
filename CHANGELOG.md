@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2020-10-22
+
+### Added
+
+- `elm-review-rules` now has an elm-review project configured to lint itself.
+
+### Fixed
+
+- Typos in README.md usage examples
+
 ## [1.0.1] - 2020-10-22
 
 ### Added

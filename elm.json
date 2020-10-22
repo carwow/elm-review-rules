@@ -3,7 +3,7 @@
     "name": "carwow/elm-review-rules",
     "summary": "A set of elm-review rules used across our projects at carwow",
     "license": "MIT",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "exposed-modules": [
         "CarwowReview"
     ],
