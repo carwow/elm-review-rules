@@ -11,6 +11,7 @@ The rules in this module are chosen to help us maintain a clean and tidy codebas
 
 -}
 
+import NoUnused.Dependencies
 import NoUnused.Variables
 import Review.Rule exposing (Rule)
 
@@ -22,5 +23,6 @@ Include the result in the list of rules returned by the `rules` function of the 
 -}
 rules : List Rule
 rules =
-    [ NoUnused.Variables.rule
+    [ NoUnused.Dependencies.rule
+    , NoUnused.Variables.rule
     ]
