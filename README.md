@@ -11,7 +11,7 @@ Include the rules exposed by this package in the elm-review configuration for yo
 ```elm
 module ReviewConfig exposing (config)
 
-import Carwow.Review
+import CarwowReview
 import Review.Rule exposing (Rule)
 
 
