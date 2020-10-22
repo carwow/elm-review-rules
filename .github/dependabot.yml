@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: "elm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "elm"
+    directory: "/review"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
