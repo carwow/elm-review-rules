@@ -12,3 +12,4 @@ jobs:
       - run: yarn install
       - run: yarn run elm make
       - run: yarn run elm-format src/ --validate
+      - run: yarn run elm-review
