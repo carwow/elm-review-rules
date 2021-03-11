@@ -4,7 +4,7 @@
   "devDependencies": {
     "elm": "^0.19.1-5",
     "elm-format": "^0.8.4",
-    "elm-review": "^2.4.2"
+    "elm-review": "^2.4.5"
   },
   "license": "MIT",
   "name": "elm-review-rules",
