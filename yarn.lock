@@ -374,10 +374,10 @@ elm-format@^0.8.5:
   dependencies:
     binwrap "^0.2.3"
 
-elm-review@^2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/elm-review/-/elm-review-2.5.1.tgz#267ad8d55cb25306b30b8a2d2c3dee97f48f1a34"
-  integrity sha512-LUIUy7yX0MBtQIhhsAqX4PmB7xpMGysN4oPWa/dnNvnqAkkIJcMQJBd6vudt2rNqPCE0KLupPbvUiSQCulxmDQ==
+elm-review@^2.5.5:
+  version "2.5.5"
+  resolved "https://registry.yarnpkg.com/elm-review/-/elm-review-2.5.5.tgz#d451e03a792491b2f749d4622a8e23d0c9dbe278"
+  integrity sha512-VOPeOgeE16RjLich8Gt1qJlXyASG2qS5Or4Q3vO1OlAYLPxEAlzUlEiloa7RFtm6dnEYk38axnpx8WexKy7VjA==
   dependencies:
     chalk "^4.0.0"
     chokidar "^3.4.0"
@@ -391,6 +391,7 @@ elm-review@^2.5.1:
     got "^10.7.0"
     minimist "^1.2.0"
     ora "^5.4.0"
+    path-key "^3.1.1"
     prompts "^2.2.1"
     strip-ansi "^6.0.0"
     temp "^0.9.1"
@@ -931,7 +932,7 @@ path-is-absolute@^1.0.0:
   resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
   integrity sha1-F0uSaHNVNP+8es5r9TpanhtcX18=
 
-path-key@^3.1.0:
+path-key@^3.1.0, path-key@^3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/path-key/-/path-key-3.1.1.tgz#581f6ade658cbba65a0d3380de7753295054f375"
   integrity sha512-ojmeN0qd+y0jszEtoY48r0Peq5dwMEkIlCOu6Q5f41lfkswXuKtYrhgoTpLnyIcHm24Uhqx+5Tqm2InSwLhE6Q==
