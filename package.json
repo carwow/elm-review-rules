@@ -3,7 +3,7 @@
   "description": "A set of elm-review rules used across our projects at carwow",
   "devDependencies": {
     "elm": "^0.19.1-5",
-    "elm-format": "^0.8.5",
+    "elm-format": "^0.8.6",
     "elm-review": "^2.7.6"
   },
   "license": "MIT",
